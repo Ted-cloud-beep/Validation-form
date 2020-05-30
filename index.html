@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Valadation</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.6.1/css/all.css"
+      integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+    <script src="app.js" defer></script>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Create Account</h1>
+      <form action="">
+        <label for="name"
+          >Username<i id="us1" class="fas fa-exclamation-circle"></i
+          ><i id="us2" class="fas fa-check-circle"></i
+        ></label>
+        <input type="text" name="name" id="name" />
+        <p>
+          at least two character and no numbers
+        </p>
+        <label for="email"
+          >Email<i id="em1" class="fas fa-exclamation-circle"></i
+          ><i id="em2" class="fas fa-check-circle"></i
+        ></label>
+        <input type="email" name="" id="email" />
+        <p>
+          Your email is invalid
+        </p>
+        <label for="password"
+          >Password<i id="pa1" class="fas fa-exclamation-circle"></i
+          ><i id="pa2" class="fas fa-check-circle"></i
+        ></label>
+        <input type="password" name="password" id="pass" />
+        <p>
+          Password not strong enough(A,a,0-9)
+        </p>
+        <label for="check"
+          >Password Check<i id="pc1" class="fas fa-exclamation-circle"></i
+          ><i id="pc2" class="fas fa-check-circle"></i
+        ></label>
+        <input type="password" name="password" id="pass1" />
+        <p>
+          Password not matched
+        </p>
+      </form>
+      <button>Submit</button>
+    </div>
+  </body>
+</html>
