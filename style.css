@@ -58,53 +58,54 @@ button:hover {
 }
 label {
   display: block;
+  position: relative;
 }
 #us1 {
   position: absolute;
-  top: 233px;
-  right: 620px;
+  top: 37px;
+  right: 7px;
   visibility: hidden;
 }
 #us2 {
   position: absolute;
-  top: 233px;
-  right: 620px;
+  top: 37px;
+  right: 7px;
   visibility: hidden;
 }
 #em1 {
   position: absolute;
-  top: 324px;
-  right: 620px;
+  top: 37px;
+  right: 7px;
   visibility: hidden;
 }
 #em2 {
   position: absolute;
-  top: 324px;
-  right: 620px;
+  top: 37px;
+  right: 7px;
   visibility: hidden;
 }
 #pa1 {
   position: absolute;
-  top: 415px;
-  right: 620px;
+  top: 37px;
+  right: 7px;
   visibility: hidden;
 }
 #pa2 {
   position: absolute;
-  top: 415px;
-  right: 620px;
+  top: 37px;
+  right: 7px;
   visibility: hidden;
 }
 #pc1 {
   position: absolute;
-  top: 510px;
-  right: 620px;
+  top: 37px;
+  right: 7px;
   visibility: hidden;
 }
 #pc2 {
   position: absolute;
-  top: 510px;
-  right: 620px;
+  top: 37px;
+  right: 7px;
   visibility: hidden;
 }
 
